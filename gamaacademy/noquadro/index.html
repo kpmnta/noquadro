@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>.:No Quadro:.</title>
+    <link rel="stylesheet" href="style.css">
+    <title></title>
 </head>
 <body>
-    
+    <h1>Exemplo de formulário para o Show me the Leads</h1>
+    <form method="POST" action="https://smtl.gama.academy/leads/bfee94f1-b7e1-11ea-8228-89cff86db9a0">
+      <input
+        name="name"
+        type="text"
+        pattern="^\D{2,}\s[\D\s]{2,}$"
+        title="Digite seu nome completo"
+        required
+      />
+      <input
+        name="email"
+        type="email"
+        title="Digite um email válido"
+        required
+      />
+      <input name="redirectTo" type="hidden" value="https://gama.academy" />
+      <input name="debugMode" type="hidden" value="true" />
+      <input type="submit" />
+    </form>
 </body>
 </html>
