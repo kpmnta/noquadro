@@ -5,10 +5,20 @@
     left: 2px;
     top: 0px;
 }
+h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+}
+
 #retangulo1{
     position: absolute;
     width: 917px;
-    height: 594px;
+    height: 669px;
     left: 255px;
     top: 81px;
     background: #DDD5D5;
@@ -21,7 +31,7 @@
     height: 140px;
     left: 288px;
     top: 99px;
-    font-family: Red Hat Text;
+    font-family: 'Red Hat Display', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -35,17 +45,28 @@
     height: 37px;
     left: 360px;
     top: 211px;
-    font-family: Red Hat Text;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 26px;
-    color: #A30909;
 }
-#logo{
+h3 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+h3 span{
+    color: #A30909;
+    font-weight: bold;
+}
+div#logo {
     position: absolute;
     width: 173.61px;
     height: 164px;
+    left: 635px;
+    top: 237px;
+    background-image: url(img/logo.png);
+    z-index: 9999;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
 }
 #retangulo2{
     position: absolute;
@@ -55,14 +76,14 @@
     top: 309px;
     background: #F0E8E8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 22px;   
+    border-radius: 22px;
 }
 #retangulo4{
     position: absolute;
     width: 341px;
     height: 41px;
     left: 545px;
-    top: 431px;
+    top: 466px;
     background: #C4C4C4;
 }
 #retangulo5{
@@ -70,27 +91,46 @@
     width: 341px;
     height: 41px;
     left: 545px;
-    top: 486px;
+    top: 528px;
     background: #C4C4C4;
+    border: 0;
 }
 #retangulo6{
     position: absolute;
     width: 397px;
     height: 76px;
     left: 521px;
-    top: 543px;
+    top: 589px;
     background: #F1A430;
 }
-#botao{
+
+.input-form {
     position: absolute;
-    width: 332px;
-    height: 62px;
-    left: 597px;
-    top: 557px;
-    font-family: Red Hat Text;
+    width: 341px;
+    height: 41px;
+    left: 545px;
+    top: 466px;
+    background: #C4C4C4;
+    border: 0;
+    padding: 0 10px;
+    outline: none;
+}
+
+input[type="email"].input-form {
+    top: 528px;
+}
+
+button.btn-enviar {
+    position: absolute;
+    width: 397px;
+    height: 76px;
+    left: 521px;
+    top: 589px;
+    background: #F1A430;
+    border: 0;
+    font-family: 'Red Hat Display', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
-    color: #000000;
 }
