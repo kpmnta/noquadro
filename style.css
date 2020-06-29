@@ -120,7 +120,7 @@ input[type="email"].input-form {
     top: 528px;
 }
 
-button.btn-enviar {
+.btn-enviar {
     position: absolute;
     width: 397px;
     height: 76px;
