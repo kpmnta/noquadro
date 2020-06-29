@@ -23,27 +23,56 @@
 
 </head>
 <body>
-    <div>
-        <h1>Exemplo de formulário para o Show me the Leads</h1>
-        <form method="POST" action="https://smtl.gama.academy/leads/bfee94f1-b7e1-11ea-8228-89cff86db9a0">
-        <input
-            name="name"
-            type="text"
-            pattern="^\D{2,}\s[\D\s]{2,}$"
-            title="Digite seu nome completo"
-            required
-        />
-        <input
-            name="email"
-            type="email"
-            title="Digite um email válido"
-            required
-        />
-        <input name="redirectTo" type="hidden" value="obrigado.html" />
-        <input name="debugMode" type="hidden" value="true" />
-        <input type="submit" />
-        </form>
+    <div class="img-bg">
+        <img src="" alt="">
     </div>
+
+    <div id="landing">
+        <div>
+            <h1>
+                QUER CONHECER AS FERRAMENTAS QUE IRÃO TRANSFORMAR SUAS AULAS ONLINE EM UMA EXPERIÊNCIA MUITO MAIS COMPLETA? BAIXE O E-BOOK: <strong>COMO DAR AULAS ONLINE</strong>
+            </h1>
+            <h3>
+                PROMOÇÃO de LANÇAMENTO: GRÁTIS APENAS ATÉ DIA 03/07/20 às 23:59
+            </h3>     
+        </div>
+        <div class="pop-up">
+            <img class="logo-form" src="img/logo.png" alt="Logo noQuadro">
+           
+            <form method="POST" action="https://smtl.gama.academy/leads/bfee94f1-b7e1-11ea-8228-89cff86db9a0">
+                <input
+                    name="name"
+                    type="text"
+                    pattern="^\D{2,}\s[\D\s]{2,}$"
+                    title="Digite seu nome completo"
+                    placeholder="Nome Completo*"
+                    required
+                />
+                <input
+                    name="email"
+                    type="email"
+                    title="Digite um email válido"
+                    placeholder="E-mail*"
+                    required
+                />
+                <input name="redirectTo" type="hidden" value="obrigado.html" />
+                <input name="debugMode" type="hidden" value="true"/>
+                <button>BAIXE AGORA!</button>
+                </form>
+                <p>Não quero receber esse conteúdo</p>
+        </div>
+    </div>
+
+    <div>
+        <h2>O que você vai aprender:</h2>
+    </div>
+
+
+
+
+
+
+    
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NXLTMZR"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
