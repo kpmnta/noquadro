@@ -1,3 +1,96 @@
-body{
-    background-color: whitesmoke;
+.img-bg{
+    position: absolute;
+    width: 1440px;
+    height: 798px;
+    left: 2px;
+    top: 0px;
+}
+#retangulo1{
+    position: absolute;
+    width: 917px;
+    height: 594px;
+    left: 255px;
+    top: 81px;
+    background: #DDD5D5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+#chamada1{
+    position: absolute;
+    width: 852px;
+    height: 140px;
+    left: 288px;
+    top: 99px;
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+}
+#chamada2{
+    position: absolute;
+    width: 780px;
+    height: 37px;
+    left: 360px;
+    top: 211px;
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #A30909;
+}
+#logo{
+    position: absolute;
+    width: 173.61px;
+    height: 164px;
+}
+#retangulo2{
+    position: absolute;
+    width: 478px;
+    height: 341px;
+    left: 483px;
+    top: 309px;
+    background: #F0E8E8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;   
+}
+#retangulo4{
+    position: absolute;
+    width: 341px;
+    height: 41px;
+    left: 545px;
+    top: 431px;
+    background: #C4C4C4;
+}
+#retangulo5{
+    position: absolute;
+    width: 341px;
+    height: 41px;
+    left: 545px;
+    top: 486px;
+    background: #C4C4C4;
+}
+#retangulo6{
+    position: absolute;
+    width: 397px;
+    height: 76px;
+    left: 521px;
+    top: 543px;
+    background: #F1A430;
+}
+#botao{
+    position: absolute;
+    width: 332px;
+    height: 62px;
+    left: 597px;
+    top: 557px;
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #000000;
 }
