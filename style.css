@@ -134,3 +134,84 @@ button.btn-enviar {
     font-size: 36px;
     line-height: 48px;
 }
+
+@media only screen and (max-width: 600px) {
+    .img-bg{
+        width: 515px;
+        height: 294px;
+        left: -108px;
+        top: 0px;
+    }
+
+    h1 {
+        font-size: 17px;
+        line-height: 22px;
+    } 
+    #retangulo1{
+        width: 319px;
+        height: 213px;
+        left: 45px;
+        background: #fff;     
+
+    }
+
+    #chamada1{
+        width: 290px;
+        height: 88px;
+        left: 57px;
+        top: 120px;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;    
+    }
+
+    #chamada2{
+        width: 346px;
+        height: 50px;
+        left: 28px;
+        top: 295px;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center; 
+    }
+
+    div#logo {
+        width: 99px;
+        height: 94px;
+        left: 150px;
+        top: -20px;
+
+    }
+
+    #retangulo2{
+        width: 338px;
+        height: 218px;
+        left: 28px;
+        margin-top: 30px;
+        
+    }
+
+    .input-form {
+        width: 297px;
+        height: 41px;
+        left: 55px;
+        top: 415px;
+    }
+
+    input[type="email"].input-form {
+        top: 470px;
+    }
+
+    button.btn-enviar {
+        width: 258px;
+        height: 59px;
+        left: 75px;
+        top: 530px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    
+
+  }
+
