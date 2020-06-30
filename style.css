@@ -142,6 +142,16 @@ input[type="email"].input-form {
     left: 633px;
     top: 91px;
 }
+#retangulo1obrigado{
+    position: absolute;
+    width: 917px;
+    height: 669px;
+    left: 255px;
+    top: 81px;
+    background: #DDD5D5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
 #retangulo2obrigado{
     position: absolute;
     width: 531px;
@@ -152,7 +162,6 @@ input[type="email"].input-form {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 22px;
 }
-
 #parabens{
     position: absolute;
     width: 418px;
@@ -166,9 +175,7 @@ input[type="email"].input-form {
     line-height: 49px;
     text-align: center;
     color: #1487C9;
-
 }
-
 #ebook{
     position: absolute;
     width: 480px;
@@ -260,7 +267,38 @@ input[type="email"].input-form {
         line-height: 26px;
     }
 
-    
+    #retangulo1obrigado{
+        width: 329px;
+        height: 563px;
+        left: 16px;
+        top: 51px;
+    }
+
+    #retangulo2obrigado{
+        width: 329px;
+        height: 563px;
+        left: 16px;
+        top: 51px;
+        background: #FFFFFF;
+    }
+    .logo-form{
+        width: 99px;
+        height: 94px;
+        left: 130px;
+        top: 12px;
+    }
+    #parabens{
+        width: 282px;
+        height: 58px;
+        left: 38px;
+        top: 131px;
+    }
+    #ebook{
+        width: 329px;
+        height: 346px;
+        left: 16px;
+        top: 201px;
+    }
 
   }
 
