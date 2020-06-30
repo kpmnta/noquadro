@@ -57,15 +57,16 @@ h3 span{
     font-weight: bold;
 }
 div#logo {
-    position: absolute;
-    width: 173.61px;
-    height: 164px;
-    left: 635px;
-    top: 237px;
-    background-image: url(img/logo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0 0;
+        position: absolute;
+        width: 173.61px;
+        height: 164px;
+        left: 635px;
+        top: 237px;
+        background-image: url(img/logo.png);
+        z-index: 9999;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 0;
 }
 #retangulo2{
     position: absolute;
@@ -185,6 +186,7 @@ input[type="email"].input-form {
 
     div#logo {
         width: 99px;
+        z-index: 9999;
         height: 94px;
         left: 150px;
         top: -20px;
@@ -293,11 +295,10 @@ input[type="email"].input-form {
     }
     .logo-form{
         position: absolute;
-        z-index: 999;
-        width: 99px;
-        height: 94px;
-        left: 130px;
-        top: 12px;
+        width: 173.61px;
+        height: 164px;
+        left: 633px;
+        top: 91px;
     }
 
     #parabens{
@@ -314,3 +315,5 @@ input[type="email"].input-form {
     }
 
 }
+
+
