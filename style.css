@@ -202,7 +202,7 @@ input[type="email"].input-form {
         top: 470px;
     }
 
-    button.btn-enviar {
+    .btn-enviar {
         width: 258px;
         height: 59px;
         left: 75px;
