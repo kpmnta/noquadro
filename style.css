@@ -63,7 +63,6 @@ div#logo {
     left: 635px;
     top: 237px;
     background-image: url(img/logo.png);
-    z-index: 9999;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -142,54 +141,7 @@ input[type="email"].input-form {
     left: 633px;
     top: 91px;
 }
-#retangulo1obrigado{
-    position: absolute;
-    width: 917px;
-    height: 669px;
-    left: 255px;
-    top: 81px;
-    background: #DDD5D5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-}
-#retangulo2obrigado{
-    position: absolute;
-    width: 531px;
-    height: 379px;
-    left: 456px;
-    top: 261px;
-    background: #F0E8E8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 22px;
-}
-#parabens{
-    position: absolute;
-    width: 418px;
-    height: 102px;
-    left: 512px;
-    top: 250px;
-    font-family:'Red Hat Display', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 49px;
-    text-align: center;
-    color: #1487C9;
-}
-#ebook{
-    position: absolute;
-    width: 480px;
-    height: 224px;
-    left: 479.93px;
-    top: 320px;
-    font-family:'Red Hat Display';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 30px;
-    text-align: center;
-    color: #000000;
-}
+
 
 @media only screen and (max-width: 600px) {
     .img-bg{
@@ -267,6 +219,64 @@ input[type="email"].input-form {
         line-height: 26px;
     }
 
+
+  }
+
+
+
+  /* Estilo Página Obrigado */
+
+  #retangulo1obrigado{
+    position: absolute;
+    width: 917px;
+    height: 669px;
+    left: 255px;
+    top: 81px;
+    background: #DDD5D5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+#retangulo2obrigado{
+    position: absolute;
+    width: 531px;
+    height: 379px;
+    left: 456px;
+    top: 261px;
+    background: #F0E8E8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+}
+#parabens{
+    position: absolute;
+    width: 418px;
+    height: 102px;
+    left: 512px;
+    top: 250px;
+    font-family:'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 49px;
+    text-align: center;
+    color: #1487C9;
+}
+#ebook{
+    position: absolute;
+    width: 480px;
+    height: 224px;
+    left: 479.93px;
+    top: 320px;
+    font-family:'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+@media only screen and (max-width: 600px) {
+
     #retangulo1obrigado{
         width: 329px;
         height: 563px;
@@ -282,11 +292,14 @@ input[type="email"].input-form {
         background: #FFFFFF;
     }
     .logo-form{
+        position: absolute;
+        z-index: 999;
         width: 99px;
         height: 94px;
         left: 130px;
         top: 12px;
     }
+
     #parabens{
         width: 282px;
         height: 58px;
@@ -300,5 +313,4 @@ input[type="email"].input-form {
         top: 201px;
     }
 
-  }
-
+}
