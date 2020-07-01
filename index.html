@@ -68,12 +68,12 @@
             <div id="retangulo2"></div>
         </div>
 
-        <form method="POST" action="https://smtl.gama.academy/leads/bfee94f1-b7e1-11ea-8228-89cff86db9a0">
+        <form method="POST" id="form_download_ebook" action="https://smtl.gama.academy/leads/bfee94f1-b7e1-11ea-8228-89cff86db9a0">
             <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo" placeholder="Nome Completo*" required="" class="input-form">
             <input name="email" type="email" title="Digite um email válido" placeholder="E-mail*" required="" class="input-form">
 
-            <input name="redirectTo" type="hidden">
-            <input type="submit" class="btn-enviar" value="BAIXE AGORA!">
+            <input name="redirectTo" type="hidden" value="#obrigado.html"/>
+            <input type="submit" class="btn-enviar" value="BAIXE AGORA!"/>
 
         </form>
     </div>
@@ -160,6 +160,15 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NXLTMZR" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
+    <script>
+        document.getElementById("form_download_ebook").addEventListener("submit", function(event){
+            debugger;
+            event.preventDefault()
+            console.log('foi')
+            window.location.href = 'obrigado.html'
+        });
+    </script>
 </body>
 
 </html>
