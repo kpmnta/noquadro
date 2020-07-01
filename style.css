@@ -183,7 +183,7 @@ input[type="email"].input-form {
     top: 1725px;
 }
 
-  /* Estilo PÃƒÂ¡gina Obrigado */
+  /* Estilo PÃƒÆ’Ã‚Â¡gina Obrigado */
 
   #retangulo1obrigado{
     position: absolute;
@@ -229,7 +229,6 @@ input[type="email"].input-form {
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
-    line-height: 30px;
     text-align: center;
     color: #000000;
 }
@@ -358,8 +357,43 @@ ul.icones > li p{
     color: #000000;
 }
 
-
-
+#ebook a {
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: #000000;
+    background: #F2DC14;
+    padding: 0 15px;
+    display: inline-block;
+}
+#boxredessociais{
+    position: absolute;
+    left: 568px;
+    top: 539px;
+    text-align: center;
+}
+div#boxredessociais p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Text';
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+#redessociais {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul#redessociais > li {
+    display: inline-block;
+    margin-left: 10px;
+}
+ul#redessociais  > li.instagram{
+    margin-left: 0;
+}
 
 @media only screen and (max-width: 600px) {
     .img-bg{
@@ -464,10 +498,11 @@ ul.icones > li p{
     }
     .logo-form{
         position: absolute;
-        width: 173.61px;
-        height: 164px;
-        left: 633px;
-        top: 91px;
+        width: 149px;
+        height: auto;
+        left: 101px;
+        top: 4px;
+        z-index: 99;
     }
 
     #parabens{
@@ -548,6 +583,11 @@ ul.icones > li p{
         left: 40px;
         top: 3307px;
         text-align: center;
+    }
+    #boxredessociais {
+        left: 31px;
+        top: 478px;
+        width: 300px;
     }
 }
 

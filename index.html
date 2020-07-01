@@ -72,7 +72,7 @@
             <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo" placeholder="Nome Completo*" required="" class="input-form">
             <input name="email" type="email" title="Digite um email válido" placeholder="E-mail*" required="" class="input-form">
 
-            <input name="redirectTo" type="hidden" value="obrigado.html">
+            <input name="redirectTo" type="hidden">
             <input type="submit" class="btn-enviar" value="BAIXE AGORA!">
 
         </form>
@@ -154,7 +154,7 @@
 <div id="barralateral" ></div>
 
     <script>
-        document.querySelector("input[name='redirectTo']").value = window.location.origin + "/files/EBook - No Quadro.pdf";
+        document.querySelector("input[name='redirectTo']").value = window.location.origin + "/obrigado.html";
     </script>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NXLTMZR" height="0" width="0"
