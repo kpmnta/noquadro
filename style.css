@@ -5,8 +5,12 @@
     left: 2px;
     top: 0px;
 }
+.box-topo
+{
+    position: relative;
+}
 h1 {
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Red Hat Text', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -18,12 +22,12 @@ h1 {
 #retangulo1{
     position: absolute;
     width: 917px;
-    height: 669px;
+    height: 594px;
     left: 255px;
     top: 81px;
     background: #DDD5D5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
+    border-radius: 22px;
 }
 #chamada1{
     position: absolute;
@@ -31,7 +35,7 @@ h1 {
     height: 140px;
     left: 288px;
     top: 99px;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Red Hat Text', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -47,24 +51,26 @@ h1 {
     top: 211px;
 }
 h3 {
-    font-family: 'Red Hat Display', sans-serif;
-    font-style: normal;
+    position: absolute;
+    width: 780px;
+    height: 37px;
+    left: 360px;
+    top: 211px;
     font-weight: normal;
-    font-size: 20px;
 }
 h3 span{
     color: #A30909;
     font-weight: bold;
 }
 div#logo {
-        position: absolute;
-        width: 173.61px;
-        height: 164px;
-        left: 635px;
-        top: 237px;
+    position: absolute;
+    width: 150px;
+    height: 154px;
+    left: 646px;
+    top: 207px;
         background-image: url(img/logo.png);
         z-index: 9999;
-        background-size: cover;
+        background-size: 100%;
         background-repeat: no-repeat;
         background-position: 0 0;
 }
@@ -73,7 +79,7 @@ div#logo {
     width: 478px;
     height: 341px;
     left: 483px;
-    top: 309px;
+    top: 242px;
     background: #F0E8E8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 22px;
@@ -109,7 +115,7 @@ div#logo {
     width: 341px;
     height: 41px;
     left: 545px;
-    top: 466px;
+    top: 418px;
     background: #C4C4C4;
     border: 0;
     padding: 0 10px;
@@ -117,7 +123,7 @@ div#logo {
 }
 
 input[type="email"].input-form {
-    top: 528px;
+    top: 470px;
 }
 
 .btn-enviar {
@@ -125,10 +131,10 @@ input[type="email"].input-form {
     width: 397px;
     height: 76px;
     left: 521px;
-    top: 589px;
+    top: 524px;
     background: #F1A430;
     border: 0;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Red Hat Text', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -143,6 +149,217 @@ input[type="email"].input-form {
     top: 91px;
 }
 
+.subtitulo {
+    font-family: "Red Hat Text";
+    position: absolute;
+    background: #F2DC14;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    padding: 10px 15px;
+}
+
+#subtitulo1 {
+        left: 219px;
+        top: 1263px;
+}
+
+#subtitulo2 {
+    left: 213px;
+    top: 1461px;
+}
+
+#subtitulo3 {
+    left: 219px;
+    top: 1809px;
+}
+
+#chamada2 h3 {
+    position: absolute;
+    width: 1090px;
+    height: 85px;
+    left: 175px;
+    top: 1725px;
+}
+
+  /* Estilo PÃƒÂ¡gina Obrigado */
+
+  #retangulo1obrigado{
+    position: absolute;
+    width: 917px;
+    height: 669px;
+    left: 255px;
+    top: 81px;
+    background: #DDD5D5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+#retangulo2obrigado{
+    position: absolute;
+    width: 531px;
+    height: 379px;
+    left: 456px;
+    top: 261px;
+    background: #F0E8E8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+}
+#parabens{
+    position: absolute;
+    width: 418px;
+    height: 102px;
+    left: 512px;
+    top: 250px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 49px;
+    text-align: center;
+    color: #1487C9;
+}
+#ebook{
+    position: absolute;
+    width: 480px;
+    height: 224px;
+    left: 479.93px;
+    top: 320px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.img-bg img{
+    position: absolute;
+    width: 1440px;
+    height: 798px;
+    left: 2px;
+    top: 0px;
+}
+
+.conteudo h2{
+    position: absolute;
+    width: 355px;
+    height: 50px;
+    left: 524px;
+    top: 671px;
+    font-family:'Red Hat Text';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    color: #000000;
+}
+ul.icones {
+    position: absolute;
+    left: 350px;
+    top: 690px;
+    list-style: none;
+}
+
+ul.icones > li{
+    display: inline-block;
+}
+.texto h2{
+    position: absolute;
+    width: 531px;
+    height: 107px;
+    left: 271px;
+    top: 918px;
+    font-family: 'Red Hat Text';
+    color: #000000;
+}
+
+
+ul.icones > li p{
+    padding:0;
+    margin:0;
+    text-align:center;
+}
+.texto1{
+    position: absolute;
+    width: 1040px;
+    height: 1130px;
+    left: 202px;
+    top: 987px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+.lista1{
+    position: absolute;
+    width: 1040px;
+    height: 1130px;
+    left: 202px;
+    top: 1298px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #242424;
+}
+.lista2{
+    position: absolute;
+    width: 1040px;
+    height: 1130px;
+    left: 201px;
+    top: 1507px;
+    font-family: 'Red Hat Text';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #242424;
+}
+.texto2{
+    font-family:'Red Hat Text';
+    font-size: 20px;
+    position: absolute;
+    width: 788px;
+    height: 37px;
+    left: 342px;
+    top: 206px;
+    font-weight: bold;
+}
+#barralateral{
+    position: absolute;
+    width: 141px;
+    height: 1422px;
+    left: 13px;
+    top: 806px;
+    background: #C7DFF1;
+}
+.stream{
+    width: 192px;
+    height: 154px;
+}
+.dicas{
+    width: 163px;
+    height: 143px;
+}
+.aula{
+    width: 221px;
+    height: 188px;
+}
+.icones p{
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    
+    color: #000000;
+}
+
+
+
 
 @media only screen and (max-width: 600px) {
     .img-bg{
@@ -150,6 +367,16 @@ input[type="email"].input-form {
         height: 294px;
         left: -108px;
         top: 0px;
+    }
+
+    .img-bg img {
+        width: 500px;
+        height: 685px;
+    }
+    .conteudo h2 {
+        left: 49px;
+        top: 686px;
+        font-size: 26px;
     }
 
     h1 {
@@ -163,7 +390,6 @@ input[type="email"].input-form {
         background: #fff;     
 
     }
-
     #chamada1{
         width: 290px;
         height: 88px;
@@ -197,6 +423,7 @@ input[type="email"].input-form {
         width: 338px;
         height: 218px;
         left: 28px;
+            top: 309px;
         margin-top: 30px;
         
     }
@@ -220,64 +447,6 @@ input[type="email"].input-form {
         font-size: 20px;
         line-height: 26px;
     }
-
-
-  }
-
-
-
-  /* Estilo Página Obrigado */
-
-  #retangulo1obrigado{
-    position: absolute;
-    width: 917px;
-    height: 669px;
-    left: 255px;
-    top: 81px;
-    background: #DDD5D5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-}
-#retangulo2obrigado{
-    position: absolute;
-    width: 531px;
-    height: 379px;
-    left: 456px;
-    top: 261px;
-    background: #F0E8E8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 22px;
-}
-#parabens{
-    position: absolute;
-    width: 418px;
-    height: 102px;
-    left: 512px;
-    top: 250px;
-    font-family:'Red Hat Display', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 49px;
-    text-align: center;
-    color: #1487C9;
-}
-#ebook{
-    position: absolute;
-    width: 480px;
-    height: 224px;
-    left: 479.93px;
-    top: 320px;
-    font-family:'Red Hat Display';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 30px;
-    text-align: center;
-    color: #000000;
-}
-
-@media only screen and (max-width: 600px) {
 
     #retangulo1obrigado{
         width: 329px;
@@ -314,6 +483,72 @@ input[type="email"].input-form {
         top: 201px;
     }
 
+    
+    div#barralateral {
+        display: none;
+    }
+
+    ul.icones {
+        left: 40px;
+        top: 731px;
+    }
+    ul.icones > li {
+        display: block;
+        text-align: center;
+    }
+    #chamada2 h3 {
+        position: static;
+        width: auto;
+        height: auto;
+        left: auto;
+        top: auto;
+        font-family: 'Red Hat Text', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    .texto1 {
+        width: 347px;
+        left: 40px;
+        top: 1390px;
+        height: auto;
+    }
+    .texto h2 {
+        width: 347px;
+        left: 40px;
+        top: 1311px;
+    }
+    #subtitulo1 {
+        left: 40px;
+        top: 1986px;
+    }
+    .lista1 {
+        width: 290px;
+        height: auto;
+        left: 40px;
+        top: 2054px;
+    }
+    #subtitulo2 {
+        left: 40px;
+        top: 2328px;
+    }
+    .lista2 {
+        width: 290px;
+        height: auto;
+        left: 40px;
+        top: 2422px;
+    }
+    #subtitulo3 {
+        left: 40px;
+        top: 3229px;
+    }
+    .texto2 {
+        width: 290px;
+        height: auto;
+        left: 40px;
+        top: 3307px;
+        text-align: center;
+    }
 }
 
 
