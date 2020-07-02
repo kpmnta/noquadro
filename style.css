@@ -1,34 +1,158 @@
-.img-bg{
-    position: absolute;
-    width: 1440px;
-    height: 798px;
-    left: 2px;
-    top: 0px;
-}
-.box-topo
-{
-    position: relative;
-}
-h1 {
+
+
+body {
+    background: url(img/FOTOS-BACKGROUND.png) no-repeat;
+    background-size: 1400px 600px;
     font-family: 'Red Hat Text', sans-serif;
+}
+
+h1 {
     font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: normal;
+    font-size: 26px;
     line-height: 32px;
     text-align: center;
-    color: #000000;
+    color: #393939;
+}
+
+.box-topo {
+    display: flex;
+    justify-content: center;
 }
 
 #retangulo1{
+    margin-top: 45px;
+    width: 775px;
+    height: 496px;
+    background: url(img/arteheader.png);
+    border-radius: 53px;
+}
+
+#retangulo2{
     position: absolute;
-    width: 917px;
-    height: 594px;
-    left: 255px;
-    top: 81px;
-    background: #DDD5D5;
+    width: 392px;
+    height: 279px;
+    left: 480px;
+    top: 290px;
+    background: #F0E8E8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 22px;
 }
+
+div#logo {
+    position: absolute;
+    width: 173px;
+    height: 164px;
+    left: 590px;
+    top: 200px;
+        background-image: url(img/logo.png);
+        z-index: 9999;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+}
+
+.input-form {
+    width: 310px;
+    height: 37px;
+    background: #C4C4C4;
+    border: 0;
+    padding: 0 10px;
+    outline: none;
+}
+
+input[type="email"].input-form {
+    top: 470px;
+}
+
+.btn-enviar {
+    top: 502px;
+    left: 910px;
+    width: 226px;
+    height: 50px;
+    background: #FFC672;
+    border: 0;
+    font-style: normal;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 30px;
+    line-height: 40px;
+    font-feature-settings: 'ss01' on;
+    color: #292929;
+}
+
+.formulario p{
+    text-align: center;
+}
+
+.gratis{
+
+    background-color: #000000;
+    width: 100%;
+    height: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    font-feature-settings: 'ss01' on;
+    text-align: center;
+    color: #fff;
+    text-align: center;
+}
+
+#flex {
+    margin-top: 15px;
+}
+
+.conteudo {
+    width: 700px;
+    height: 420px;
+    border-radius: 77px;
+    width: 560px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'ss01' on;
+    color: #292929;;
+}
+
+.azul, .apresentacao {
+    background-color: #C7DFF1;
+    padding: 30px;
+}
+
+.dicas {
+    background-color: #FFC672;
+    padding: 30px
+
+}
+
+
+.live, .apresentacao, .dicas {
+    display:flex;
+
+}
+.baixar {
+    width: 225px;
+    height: 50px;
+    background-color: #FFC672;
+    border-radius: 50px;
+    border: none;
+
+}
+
+.baixar a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+}
+/* 
+
+
 #chamada1{
     position: absolute;
     width: 852px;
@@ -62,53 +186,8 @@ h3 span{
     color: #A30909;
     font-weight: bold;
 }
-div#logo {
-    position: absolute;
-    width: 150px;
-    height: 154px;
-    left: 646px;
-    top: 207px;
-        background-image: url(img/logo.png);
-        z-index: 9999;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: 0 0;
-}
-#retangulo2{
-    position: absolute;
-    width: 478px;
-    height: 341px;
-    left: 483px;
-    top: 242px;
-    background: #F0E8E8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 22px;
-}
-#retangulo4{
-    position: absolute;
-    width: 341px;
-    height: 41px;
-    left: 545px;
-    top: 466px;
-    background: #C4C4C4;
-}
-#retangulo5{
-    position: absolute;
-    width: 341px;
-    height: 41px;
-    left: 545px;
-    top: 528px;
-    background: #C4C4C4;
-    border: 0;
-}
-#retangulo6{
-    position: absolute;
-    width: 397px;
-    height: 76px;
-    left: 521px;
-    top: 589px;
-    background: #F1A430;
-}
+
+
 
 .input-form {
     position: absolute;
@@ -181,10 +260,10 @@ input[type="email"].input-form {
     height: 85px;
     left: 175px;
     top: 1725px;
-}
+} */
 
   /* Estilo PÃƒÆ’Ã‚Â¡gina Obrigado */
-
+/* 
   #retangulo1obrigado{
     position: absolute;
     width: 917px;
@@ -591,4 +670,4 @@ ul#redessociais  > li.instagram{
     }
 }
 
-
+ */
