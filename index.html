@@ -36,6 +36,25 @@
     </script>
     <!-- End Google Tag Manager -->
 
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1880382,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+            (function (h, o, t, j, a, r) {
+                h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+                h._hjSettings = { hjid: 1880382, hjsv: 6 };
+                a = o.getElementsByTagName('head')[0];
+                r = o.createElement('script'); r.async = 1;
+                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+
 </head>
 
 <body>
@@ -59,10 +78,11 @@
                                     title="Digite seu nome completo" placeholder="Nome Completo*" required="" class="input-name">
                                 <input name="email" type="email" title="Digite um email válido" placeholder="E-mail*" required="" class="input-email">
 
+                                <input name="redirectTo" type="hidden" value="https://noquadro.info/obrigado.html">
+                                <input type="submit" class="btn-enviar" value="Cadastre-se">
+
                             </form>
-                            
-                            <button class="obrigado"><a href="obrigado.html">Cadastre-se</a></button>
-                            
+
                         </div>
                         <p class="spam">Não enviamos spam</p>
                     </div>

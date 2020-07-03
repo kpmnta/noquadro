@@ -98,7 +98,7 @@ div#logo {
 
 }
 
-.obrigado {
+.btn-enviar {
 
     width: 226px;
     height: 50px;
@@ -110,16 +110,12 @@ div#logo {
     font-size: 30px;
     line-height: 40px;
     font-feature-settings: 'ss01' on;
-
+    color: #292929;
     margin-left: 35px;
     margin-top: 10px;
     
 }
 
-.formulario a {
-    text-decoration: none;
-    color: #292929;
-}
 
 
 .formulario {
