@@ -27,9 +27,8 @@ time, mark, audio, video {
 }
  /*page one*/
  body {
-    background: url(img/FOTOS-BACKGROUND.png) no-repeat;
-    /*background-size: 1400px 600px;*/
-    background-size: auto 100vh;
+    background: url(../img/FOTOS-BACKGROUND.png) no-repeat;
+    background-size: 1400px 580px;
     font-family: 'Red Hat Text', sans-serif;
     line-height: 1
 }
@@ -52,7 +51,7 @@ h1 {
     margin-top: 45px;
     width: 775px;
     height: 496px;
-    background: url(img/arteheader.png);
+    background: url(../img/arteheader.png);
     border-radius: 53px;
 }
 
@@ -72,8 +71,8 @@ div#logo {
     width: 173px;
     height: 164px;
     left: 590px;
-    top: 200px;
-    background-image: url(img/logo.png);
+    top: 150px;
+    background-image: url(../img/logo.png);
     z-index: 9999;
     background-size: 100%;
     background-repeat: no-repeat;
