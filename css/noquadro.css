@@ -23,7 +23,7 @@ time, mark, audio, video {
     background: url(img/FOTOS-BACKGROUND.png) no-repeat;
     background-size: 1400px 600px;
     font-family: 'Red Hat Text', sans-serif;
-    line-height: 1;
+    line-height: 1
 }
 
 h1 {
@@ -53,7 +53,7 @@ h1 {
     width: 392px;
     height: 279px;
     left: 480px;
-    top: 290px;
+    top: 240px;
     background: #F0E8E8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 22px;
@@ -128,10 +128,6 @@ div#logo {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-body {
-	line-height: 1;
-	font-family: 'Red Hat Text', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -241,3 +237,92 @@ a.botao-conteudo {
 	}
 
  }
+
+ /*page tks*/
+ #retangulo2obrigado{
+    position: absolute;
+    width: 531px;
+    height: 447px;
+    left: 455px;
+    top: 153px;
+    background: #F0E8E8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+}
+#parabens{
+    position: absolute;
+    width: 418px;
+    height: 102px;
+    left: 512px;
+    top: 160px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 66px;
+    text-align: center;
+    color: #1487C9;
+}
+#ebook{
+    position: absolute;
+    width: 487px;
+    height: 191px;
+    left: 477px;
+    top: 220px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    font-feature-settings: 'ss01' on;
+    color: #000000;
+}
+
+#baixar{
+    position: absolute;
+    width: 315px;
+    height: 50px;
+    left: 583px;
+    top: 435px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: #000000;
+    background: #F2DC14;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+#boxredessociais{
+    position: absolute;
+    width: 433px;
+    height: 40px;
+    left: 504px;
+    top: 500px;
+    text-align: center;
+}
+div#boxredessociais p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Text';
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+}
+#redessociais {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul#redessociais > li {
+    display: inline-block;
+    margin-left: 10px;
+}
+ul#redessociais  > li.instagram{
+    margin-left: 0;
+}
