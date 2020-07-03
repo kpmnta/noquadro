@@ -66,7 +66,7 @@ div#logo {
     width: 173px;
     height: 164px;
     left: 590px;
-    top: 200px;
+    top: 147px;
     background-image: url(../img/logo.png);
     z-index: 9999;
     background-size: 100%;
@@ -232,12 +232,46 @@ a.botao-conteudo {
     position: relative;
 }
 
+.rodape > div * {
+    display: block;
+    text-align: center;
+}
+
+.rodape {
+    max-width: 992px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+    height: 40px;
+}
+
+.rodape >div {
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+}
+.rodape span{
+    font-style: italic;
+    font-weight: 500;
+    color: #292929;
+}
+.rodape a{
+    color: #292929;
+}
 
 @media (max-width: 576px) {
 	.box-alerta {
 		font-size: 15px;
 	}
-
+    div#retangulo2 {
+        left: 0;
+    }
+        
+    div#logo {
+        left: 135px;
+        width: 120px;
+        top: 205px;
+    }
  }
 
  /*page tks*/
