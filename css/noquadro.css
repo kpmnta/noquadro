@@ -1,3 +1,10 @@
+/* soft reset do css */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,7 +28,8 @@ time, mark, audio, video {
  /*page one*/
  body {
     background: url(img/FOTOS-BACKGROUND.png) no-repeat;
-    background-size: 1400px 600px;
+    /*background-size: 1400px 600px;*/
+    background-size: auto 100vh;
     font-family: 'Red Hat Text', sans-serif;
     line-height: 1
 }
@@ -35,7 +43,7 @@ h1 {
     color: #393939;
 }
 
-.box-topo {
+#box-topo {
     display: flex;
     justify-content: center;
 }
@@ -325,4 +333,13 @@ ul#redessociais > li {
 }
 ul#redessociais  > li.instagram{
     margin-left: 0;
+}
+
+@media (min-width: 1200px){
+    #landing{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1200px;
+    }
 }
