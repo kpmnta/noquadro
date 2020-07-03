@@ -43,14 +43,14 @@ div#logo {
     height: 164px;
     left: 590px;
     top: 200px;
-        background-image: url(img/logo.png);
-        z-index: 9999;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: 0 0;
+    background-image: url(img/logo.png);
+    z-index: 9999;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
 }
 
-.input-form {
+.input-name {
     width: 310px;
     height: 37px;
     background: #C4C4C4;
@@ -59,13 +59,23 @@ div#logo {
     outline: none;
 }
 
-input[type="email"].input-form {
-    top: 470px;
+.input-email {
+    margin-top: 7px;
+    width: 310px;
+    height: 37px;
+    background: #C4C4C4;
+    border: 0;
+    padding: 0 10px;
+    outline: none;
+}
+
+.input-name {
+    margin-top: 90px;
+
 }
 
 .btn-enviar {
-    top: 502px;
-    left: 910px;
+
     width: 226px;
     height: 50px;
     background: #FFC672;
@@ -77,9 +87,18 @@ input[type="email"].input-form {
     line-height: 40px;
     font-feature-settings: 'ss01' on;
     color: #292929;
+    margin-left: 35px;
+    margin-top: 10px;
+    
 }
 
-.formulario p{
+.formulario {
+    width: 100%;
+    margin-left: 40px;
+}
+
+
+.spam {
     text-align: center;
 }
 
