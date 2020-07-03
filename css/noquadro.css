@@ -18,6 +18,112 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+ /*page one*/
+ body {
+    background: url(img/FOTOS-BACKGROUND.png) no-repeat;
+    background-size: 1400px 600px;
+    font-family: 'Red Hat Text', sans-serif;
+    line-height: 1;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #393939;
+}
+
+.box-topo {
+    display: flex;
+    justify-content: center;
+}
+
+#retangulo1{
+    margin-top: 45px;
+    width: 775px;
+    height: 496px;
+    background: url(img/arteheader.png);
+    border-radius: 53px;
+}
+
+#retangulo2{
+    position: absolute;
+    width: 392px;
+    height: 279px;
+    left: 480px;
+    top: 290px;
+    background: #F0E8E8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+}
+
+div#logo {
+    position: absolute;
+    width: 173px;
+    height: 164px;
+    left: 590px;
+    top: 200px;
+    background-image: url(img/logo.png);
+    z-index: 9999;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.input-name {
+    width: 310px;
+    height: 37px;
+    background: #C4C4C4;
+    border: 0;
+    padding: 0 10px;
+    outline: none;
+}
+
+.input-email {
+    margin-top: 7px;
+    width: 310px;
+    height: 37px;
+    background: #C4C4C4;
+    border: 0;
+    padding: 0 10px;
+    outline: none;
+}
+
+.input-name {
+    margin-top: 90px;
+
+}
+
+.btn-enviar {
+
+    width: 226px;
+    height: 50px;
+    background: #FFC672;
+    border: 0;
+    font-style: normal;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 30px;
+    line-height: 40px;
+    font-feature-settings: 'ss01' on;
+    color: #292929;
+    margin-left: 35px;
+    margin-top: 10px;
+    
+}
+
+.formulario {
+    width: 100%;
+    margin-left: 40px;
+}
+
+
+.spam {
+    text-align: center;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
